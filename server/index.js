@@ -26,7 +26,7 @@ const PORT = process.env.PORT || 5000 ;
 
 
 // const CONNECTION_URL = "mongodb+srv://sanjana:sanjana@stackoverflow.vjjkndg.mongodb.net/?retryWrites=true&w=majority"
-// mongoose.set('strictQuery', false);
+mongoose.set('strictQuery', false);
 
 const DATABASE_URL = process.env.CONNECTION_URL
 
